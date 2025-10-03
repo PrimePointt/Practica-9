@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Galería | Bases de Datos</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">DataBases World</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="" tabindex="-1" aria-disabled="true">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="contenido-principal">
+        <div class="container">
+
+            <section class="seccion-titulo">
+                <h1>Galería de Recursos Visuales</h1>
+                <p>Una colección de diagramas, infografías y ejemplos visuales para entender mejor el mundo de las bases de datos.</p>
+            </section>
+
+            <section class="seccion-galeria">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="tarjeta-galeria" data-bs-toggle="modal" data-bs-target="#modal-imagen1">
+                            <img src="img/ER-moderno.png" alt="Diagrama Entidad-Relación">
+                            <div class="overlay-galeria"><h5>Diagrama Entidad-Relación</h5></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="tarjeta-galeria" data-bs-toggle="modal" data-bs-target="#modal-imagen2">
+                            <img src="img/nosql.jpg" alt="Infografía SQL vs NoSQL">
+                             <div class="overlay-galeria"><h5>SQL vs. NoSQL</h5></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="tarjeta-galeria" data-bs-toggle="modal" data-bs-target="#modal-imagen3">
+                            <img src="img/joins.png" alt="Tipos de SQL Joins">
+                             <div class="overlay-galeria"><h5>Tipos de SQL JOINs</h5></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="tarjeta-galeria" data-bs-toggle="modal" data-bs-target="#modal-imagen4">
+                            <img src="img/gestores_bases-datos.jpg" alt="Gestor de Base de Datos">
+                             <div class="overlay-galeria"><h5>Gestor de Base de Datos</h5></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    
+    <div class="modal fade" id="modal-imagen1" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body"><img src="img/galeria-1.png" class="img-fluid" alt="Diagrama Entidad-Relación"></div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="modal-imagen2" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+
+            <img src="img/galeria-2.png" class="img-fluid" alt="Infografía SQL vs NoSQL">
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modal-imagen3" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="img/galeria-3.png" class="img-fluid" alt="Tipos de SQL Joins">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modal-imagen4" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content"><div class="modal-body">
+            <img src="img/im1.png" class="img-fluid" alt="Gestor de Base de Datos">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="pie-de-pagina">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <h5>UBICACIÓN</h5>
+                    <p>Tuxtla Gutiérrez, Chiapas</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <h5>CONTACTO</h5>
+                    <p>bryan.hernandez29@unach.mx</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

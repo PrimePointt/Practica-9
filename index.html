@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Dashboard | Bases de Datos</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">DataBases World</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="" tabindex="-1" aria-disabled="true">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="contenido-principal">
+        <div class="container">
+
+            <section class="seccion-titulo">
+                <h1>Mi Dashboard de Bases de Datos</h1>
+                <p>Bootstrap es un framework front-end utilizado para desarrollar aplicaciones web y sitios mobile first, o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario.</p>
+            </section>
+
+            <section class="seccion-tabla">
+                <h2 class="titulo-seccion">Sistemas Gestores Populares</h2>
+                <table class="table table-striped table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nombre SGBD</th>
+                            <th scope="col">Tipo</th>
+                            <th scope="col">Uso Principal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>MySQL</td>
+                            <td>Relacional (SQL)</td>
+                            <td>Aplicaciones Web (LAMP)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>PostgreSQL</td>
+                            <td>Relacional (SQL)</td>
+                            <td>Sistemas complejos y análisis</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>MongoDB</td>
+                            <td>No Relacional (NoSQL)</td>
+                            <td>Big Data y apps en tiempo real</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="seccion-tarjetas">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="tarjeta-info">
+                            <h5>MySQL</h5>
+                            <p class="subtitulo">El Más Popular de Código Abierto</p>
+                            <p class="texto">Es el sistema de gestión de bases de datos relacional de código abierto más utilizado en el mundo, ideal para aplicaciones web.</p>
+                            <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">Visita la web oficial</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="tarjeta-info">
+                            <h5>PostgreSQL</h5>
+                            <p class="subtitulo">El Más Avanzado de Código Abierto</p>
+                            <p class="texto">Conocido por su robustez y extensibilidad. Es perfecto para sistemas complejos que requieren alta integridad de datos.</p>
+                            <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">Visita la web oficial</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="tarjeta-info">
+                            <h5>MongoDB</h5>
+                            <p class="subtitulo">Líder en Bases de Datos NoSQL</p>
+                            <p class="texto">Base de datos NoSQL orientada a documentos, diseñada para ofrecer alta escalabilidad, flexibilidad y rapidez de consulta.</p>
+                            <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">Visita la web oficial</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="pie-de-pagina">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <h5>UBICACIÓN</h5>
+                    <p>Tuxtla Gutiérrez, Chiapas</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <h5>CONTACTO</h5>
+                    <p>&copy;Bryan Solis</p>
+                    <p>bryan.hernandez29@unach.mx</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
